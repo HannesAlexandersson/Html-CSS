@@ -1,0 +1,96 @@
+a:link {text-decoration: underline;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+:root {
+    --primary-color: #313131;
+    --secondary-color: #bef506;
+  }
+@font-face {
+    font-family: 'Sunday';
+    src:        
+        url('Sunday.woff') format('woff'),
+        url('Sunday.otf') format('OpenType'),
+        url('Sunday.ttf') format('Truetype');    
+  }
+@font-face {
+    font-family: 'Ubuntu';
+    src:        
+    url('ubuntu/Ubuntu-Bold.ttf') format('Truetype');
+        
+  }
+  
+* {
+    box-sizing: border-box;    
+    font-size: 1rem;
+}
+main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 900px;
+    text-align: center;    
+    width: 50%;
+    margin:auto;
+}
+body {
+    background-color:#f3f3f3;
+    color: var(--primary-color);  
+    font-size: 16px;  
+  }
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h1 {
+    font-family: Sunday;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+
+footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 900px;
+    text-align: center;
+  }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.topParagraf {
+    font-size: 20px;
+}
+a {
+    color: #6a5acd;    
+}
+.list {
+    padding: 0;
+    list-style: none;
+}
+.list li {
+    padding: 7px;
+    margin-bottom: 3px;
+    background-color: aqua;
+    font-size: larger;    
+}
+.list li:hover{
+    box-shadow: 5px 10px #888888;
+}
+.lastList {
+    margin-bottom: 0px !important;
+}
+.author{
+    font-family: 'Ubuntu';
+    font-weight: bold;   
+    color: var(--secondary-color);
+}
+.footer {
+    text-align: center;
+    font-size: larger;
+}

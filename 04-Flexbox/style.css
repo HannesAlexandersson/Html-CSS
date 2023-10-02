@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flexitem {    
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    
+}
+nav {
+    display: flex;
+    width: 100vh;
+    background-color: #000;
+    justify-content: space-around;
+}
+
+
+section {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    align-self: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}

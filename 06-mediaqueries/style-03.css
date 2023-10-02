@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+}
+.flex-item {
+  background-color: lightblue;
+  height: 300px;
+  border: 1px solid black;
+}
+@media (min-width: 360px) {
+  .flex-item {
+    width: 100%;
+  }
+}
+@media (min-width: 820px) {
+  .flex-item {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .flex-item {
+    width: 25%;
+  }
+}
+@media (orientation: landscape) {
+  h1 {
+    font-family:serif;
+  }
+}
+
+@media (orientation: portrait) {
+  h1 {
+    font-family:sans-serif;
+  }
+}
