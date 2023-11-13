@@ -1,0 +1,61 @@
+@keyframes myAnimation{
+    0%{
+        background-color: aquamarine;
+        transform: skewY(20deg) translateX(0px) scale(1.2);
+    }
+    25%{
+        transform: translateX(100px) scale(2.1);
+    }
+    50% {
+        transform: translateY(730px);
+        background-color: tomato;
+    }
+    75%{
+        transform: scale(1.2);
+        background-color: greenyellow;
+    }
+    90%{
+        transform: translateX(1000px) scale(0.4) translateY(300px) skewX(20deg);
+        background-color: blueviolet;
+    }
+    100% {
+        transform: translateX(1216px) scale(0.4) skewY(20deg);
+        background-color: red;
+       
+    }
+
+}
+body{
+    margin: 0 auto;
+}
+.circle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-fill-mode:both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+/*  
+Add a @keyframes block to your CSS and call it move. The keyframes should have two states (from and to) 
+and use transform to go from 0 to 200px on the X-axis. Add a circle to the HTML document and use the move 
+keyframe to make it animate. 
+
+.keyframe {
+background-color: hotpink;
+animation-name: examplename;
+animation-duration: 200ms;
+animation-fill-mode : forward-> från första state till nästa osv, backwards-> tvärtom
+animation-direction: normal, alternate, 
+animation-iteration-count: //antal gångr som animationen körs, tar siffra eller infenite
+shorthand=
+animation: examplename 1s alternate infinite;
+
+
+*/
+
