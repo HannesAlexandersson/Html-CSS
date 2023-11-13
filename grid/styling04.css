@@ -1,0 +1,73 @@
+body{
+    margin: 0 auto;
+}
+.grid-wrapper{
+    max-width: 40rem;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+    
+}
+.one {
+    grid-area: 1/1/1/15;
+}
+.two {
+    grid-area: 16/1/16/16;
+}
+.three {
+    grid-area: 2/1/11/3;
+}
+.four {
+    grid-area: 1/14/11/16;
+}
+.five {
+    grid-area: 2/5/3/5;
+}
+.six {
+    grid-area: 2/11/2/11;
+}
+.seven {
+    grid-area: 3/7/5/6;
+}
+.eight {
+    grid-area: 3/10/5/11;
+}
+.nine {
+    grid-area: 4/5/5/12;
+}
+.ten {
+    grid-area: 5/7/5/10;
+}
+.eleven {
+    grid-area: 6/3/6/14;
+}
+.twelve {
+    grid-area: 7/5/7/12;
+}
+.thirteen {
+    grid-area: 7/4/9/3;
+}
+.fourteen {
+    grid-area: 7/14/9/13;
+}
+.fifteen {
+    grid-area: 8/6/9/11;
+}
+.sixteen {
+    grid-area: 9/5/9/8;
+}
+.seventeen {
+    grid-area: 9/9/9/12;
+}
+.eighteen {
+    grid-area: 8/5/8/6;
+}
+.nineteen{
+    grid-area: 10/1/10/15;
+}

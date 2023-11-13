@@ -1,0 +1,14 @@
+body{
+    box-sizing: border-box;    
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.grid-wrapper{
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem,100%),1fr));
+}
+.grid-item{
+    background-color: hotpink;
+    height: 10rem;
+}
